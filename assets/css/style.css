@@ -88,7 +88,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   header>h3{
     color: var(--gray);
@@ -119,8 +119,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .about p{
     width: 80%;
@@ -130,8 +129,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .skill__items{
     display: flex;
@@ -157,8 +155,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .experience>div{
     display: flex;
@@ -177,8 +174,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .portfolio__img{
     display: flex;
@@ -190,8 +186,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   footer p{
     text-align: center;
@@ -226,9 +221,6 @@ body{
   }
 }
 @media (min-width: 768px){
-  h2{
-    margin-top: 90px
-  }
   nav{
     min-height: 10px;
     width: 100%;
@@ -247,6 +239,7 @@ body{
     padding-left: 20%;
     background: var(--black);
     top: 0px;
+    right: 0;
   }
   nav button{
     display: none;
@@ -256,9 +249,6 @@ body{
   }
   nav a:hover{
     color: var(--gray);
-  }
-  header{
-    margin-top: 120px;
   }
   .skill__items{
     width: 50%;
