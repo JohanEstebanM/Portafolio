@@ -250,6 +250,15 @@ body{
   nav a:hover{
     color: var(--gray);
   }
+  header{
+    padding-top: 100px;
+  }
+  .about{
+    padding-top: 100px;
+  }
+  .skill{
+    padding-top: 100px;
+  }
   .skill__items{
     width: 50%;
     display: flex;
@@ -261,6 +270,15 @@ body{
   }
   .skill__items i{
     font-size: 80px;
+  }
+  .experience{
+    padding-top: 100px;
+  }
+  .portfolio{
+    padding-top: 100px;
+  }
+  footer{
+    padding-top: 100px;
   }
 }
 @media (min-width: 992px){
