@@ -35,7 +35,7 @@ body{
     align-items: center;
     gap: 60px;
     justify-content: center;
-    min-height: 100px;
+    min-height: 50px;
     width: 100%;
     padding-left: 10%;
   }
@@ -196,8 +196,11 @@ body{
   }
 }
 @media (min-width: 768px){
+  h2{
+    margin-top: 90px
+  }
   nav{
-    min-height: 100px;
+    min-height: 10px;
     width: 100%;
     position: sticky;
     top: 0;
