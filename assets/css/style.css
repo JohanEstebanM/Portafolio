@@ -1,17 +1,17 @@
 *,
 *::after,
-*::before{
+*::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-body{
-  font-family: 'Rubik', sans-serif;
-  background-color: var(--black);
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: black;
   color: white;
   line-height: 1.5;
 }
-:root{
+:root {
   --black: #020403;
   --gray: #adadad;
   --titlePhone: 40px;
@@ -24,13 +24,13 @@ body{
   --bodyDesktop: 20px;
 }
 @media (min-width: 320px) {
-  img{
+  img {
     height: 100%;
   }
-  a{
+  a {
     text-decoration: none;
   }
-  nav{
+  nav {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -40,9 +40,9 @@ body{
     padding-right: 2%;
     background: var(--black);
     position: sticky;
-    top:0;
+    top: 0;
   }
-  .nav__menu{
+  .nav__menu {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,34 +56,34 @@ body{
     right: 100%;
     transition: 1s;
   }
-  .nav__menu__visible{
+  .nav__menu__visible {
     right: 0;
   }
-  nav button{
+  nav button {
     color: white;
     background: none;
     border: none;
     font-size: 30px;
   }
-  nav button i:hover{
+  nav button i:hover {
     font-size: 35px;
   }
-  nav a{
+  nav a {
     font-size: var(--bodyPhone);
-    font-family:'Rubik', 'Regular';
+    font-family: "Rubik", "Regular";
     color: white;
     line-height: 60px;
   }
-  nav a:hover{
+  nav a:hover {
     color: var(--black);
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: var(--titlePhone);
     width: 400px;
     text-align: center;
   }
-  header{
+  header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,149 +92,155 @@ body{
     padding-top: 50px;
     max-width: 100%;
   }
-  header>h3{
+  header > h3 {
     color: var(--gray);
   }
-  header img{
+  header img {
     width: 200px;
     border-radius: 30%;
   }
-  header i{
+  header i {
     font-size: 50px;
   }
-  header a{
+  header a {
     color: white;
   }
-  header a:hover{
+  header a:hover {
     color: var(--gray);
   }
-  h2{
+  h2 {
     color: white;
     font-size: var(--subtitlePhone);
     min-height: 50px;
   }
-  p{
+  p {
     color: var(--gray);
     font-size: var(--bodyPhone);
   }
-  .about{
+  .about {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
   }
-  .about p{
+  .about p {
     width: 80%;
     text-align: center;
   }
-  .skill{
+  .skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
     max-width: 100%;
   }
-  .skill__items{
+  .skill__items {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
   }
-  .skill__items>div{
+  .skill__items > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
   }
-  .skill p{
+  .skill p {
     width: 80%;
     text-align: center;
     color: white;
   }
-  .skill i{
+  .skill i {
     font-size: 80px;
   }
-  .experience{
+  .experience {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
     max-width: 100%;
   }
-  .experience>div{
+  .experience > div {
     display: flex;
     width: 75%;
     justify-content: flex-start;
     align-items: center;
     gap: 37.5%;
   }
-  .experience hr{
+  .experience hr {
     width: 75%;
   }
-  .job{
+  .job {
     color: white;
   }
-  .portfolio{
+  .portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
     max-width: 100%;
   }
-  .portfolio__img{
+  .portfolio__img {
     display: flex;
     gap: 10px;
     flex-direction: column;
     justify-content: center;
   }
-  footer{
+  .portfolio__img a {
+    height: 50vh;
+  }
+  .portfolio__img a img {
+    width: 100%;
+  }
+  footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
     max-width: 100%;
   }
-  footer p{
+  footer p {
     text-align: center;
   }
-  footer>div{
+  footer > div {
     display: flex;
     gap: 5%;
   }
-  footer i{
+  footer i {
     font-size: 100px;
   }
-  .whatsapp{
+  .whatsapp {
     margin-left: 15%;
   }
-  .footer__info{
+  .footer__info {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
   }
-  .footer__text{
+  .footer__text {
     opacity: 80%;
   }
-  .footer__email{
+  .footer__email {
     max-width: 400px;
   }
-  footer a{
+  footer a {
     color: white;
   }
-  footer a:hover{
+  footer a:hover {
     color: var(--gray);
   }
 }
-@media (min-width: 768px){
-  nav{
+@media (min-width: 768px) {
+  nav {
     min-height: 10px;
     width: 100%;
     position: sticky;
     top: 0;
     background: var(--black);
-  } 
-  .nav__menu{
+  }
+  .nav__menu {
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -247,25 +253,25 @@ body{
     top: 0px;
     right: 0;
   }
-  nav button{
+  nav button {
     display: none;
   }
-  nav a{
+  nav a {
     line-height: 1.5;
   }
-  nav a:hover{
+  nav a:hover {
     color: var(--gray);
   }
-  header{
+  header {
     padding-top: 100px;
   }
-  .about{
+  .about {
     padding-top: 100px;
   }
-  .skill{
+  .skill {
     padding-top: 100px;
   }
-  .skill__items{
+  .skill__items {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -274,72 +280,71 @@ body{
     flex-wrap: wrap;
     gap: 50%;
   }
-  .skill__items i{
+  .skill__items i {
     font-size: 80px;
   }
-  .experience{
+  .experience {
     padding-top: 100px;
   }
-  .portfolio{
+  .portfolio {
     padding-top: 100px;
   }
-  footer{
+  footer {
     padding-top: 100px;
   }
 }
-@media (min-width: 992px){
-  .nav__menu{
+@media (min-width: 992px) {
+  .nav__menu {
     gap: 30px;
   }
-  .nav__menu a{
+  .nav__menu a {
     font-size: var(--bodyDesktop);
   }
-  nav a:hover{
+  nav a:hover {
     font-size: 24px;
   }
-  header{
+  header {
     display: flex;
     gap: 10px;
   }
-  header img{
+  header img {
     width: 300px;
   }
-  header h1{
+  header h1 {
     font-size: var(--titleDesktop);
     width: 600px;
   }
-  header h3{
+  header h3 {
     font-size: var(--subsectionDesktop);
   }
-  header div{
+  header div {
     display: flex;
     gap: 50px;
   }
-  header i{
+  header i {
     font-size: 80px;
   }
-  h2{
+  h2 {
     color: white;
     font-size: var(--subtitleDesktop);
     min-height: 50px;
   }
-  p{
+  p {
     color: var(--gray);
     font-size: var(--bodyDesktop);
   }
-  .skill__items{
+  .skill__items {
     width: 45%;
   }
-  .skill__items i{
-    font-size: 110px
+  .skill__items i {
+    font-size: 110px;
   }
-  .portfolio__img{
+  .portfolio__img {
     width: 80%;
     display: flex;
     flex-direction: row;
   }
-  .portfolio__img img{
+  .portfolio__img img {
     width: 33%;
   }
-  
 }
