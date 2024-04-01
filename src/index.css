@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Rubik", "Regular";
+  background-color: var(--black);
+  color: white;
+  line-height: 1.5;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.showRigth {
+  animation-timeline: --show;
+  animation-name: showRigth;
+}
+.showLeft {
+  animation-timeline: --show;
+  animation-name: showLeft;
+}
+.showBottom {
+  animation-timeline: --show;
+  animation-name: showBottom;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+  border-radius: 6px;
+  border: 2px solid var(--gray);
+  cursor: pointer;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+@keyframes showLeft {
+  from {
+    transform: translateX(-25vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes showRigth {
+  from {
+    transform: translateX(25vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes showBottom {
+  from {
+    transform: translateY(25vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+:root {
+  --black: #020403;
+  --gray: #adadad;
+  --titlePhone: 40px;
+  --titleDesktop: 55px;
+  --subtitlePhone: 25px;
+  --subtitleDesktop: 35px;
+  --subsectionPhone: 18px;
+  --subsectionDesktop: 30px;
+  --bodyPhone: 16px;
+  --bodyDesktop: 20px;
+}

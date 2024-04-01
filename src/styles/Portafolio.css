@@ -1,0 +1,33 @@
+@media (min-width: 320px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  .portfolio__img {
+    display: flex;
+    height: 50vh;
+    width: 80%;
+  }
+  .portfolio__img a {
+    width: 0px;
+    flex-grow: 1;
+    transition: 0.8s ease;
+  }
+  .portfolio__img a img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .portfolio__img a:hover {
+    width: 80%;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}

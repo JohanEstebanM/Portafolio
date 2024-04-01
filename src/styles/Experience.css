@@ -1,0 +1,27 @@
+@media (min-width: 320px) {
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  .experience > div {
+    display: flex;
+    width: 75%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 37.5%;
+  }
+  .experience hr {
+    width: 75%;
+  }
+  .job {
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  .experience {
+    padding-top: 100px;
+  }
+}

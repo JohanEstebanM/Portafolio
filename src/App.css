@@ -1,0 +1,28 @@
+@media (min-width: 320px) {
+  img {
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  h2 {
+    color: white;
+    font-size: var(--subtitlePhone);
+    min-height: 50px;
+  }
+  p {
+    color: var(--gray);
+    font-size: var(--bodyPhone);
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    color: white;
+    font-size: var(--subtitleDesktop);
+    min-height: 50px;
+  }
+  p {
+    color: var(--gray);
+    font-size: var(--bodyDesktop);
+  }
+}
