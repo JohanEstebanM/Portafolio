@@ -12,6 +12,7 @@ const Footer = () => {
           <a
             href="https://api.whatsapp.com/send?phone=3218312687"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-whatsapp showLeft"></i>
           </a>
@@ -19,7 +20,11 @@ const Footer = () => {
           <p className="showLeft">3218312687</p>
         </div>
         <div className="footer__info">
-          <a href="mailto:morenojimenezjohanesteban@gmail.com" target="_blank">
+          <a
+            href="mailto:morenojimenezjohanesteban@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-regular fa-envelope showRigth"></i>
           </a>
           <p className="footer__text showRigth">Email</p>

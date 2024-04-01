@@ -15,13 +15,18 @@ const Header = () => {
         <a
           href="https://www.linkedin.com/in/johan-esteban-moreno-jim%C3%A9nez-71051b265/"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fa-brands fa-linkedin showLeft"></i>
         </a>
-        <a href="https://www.instagram.com/johanesteban132/" target="_blank">
+        <a
+          href="https://www.instagram.com/johanesteban132/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa-brands fa-instagram showBottom"></i>
         </a>
-        <a href="https://twitter.com/" target="_blank">
+        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-square-twitter showRigth"></i>
         </a>
       </div>
